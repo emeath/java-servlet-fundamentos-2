@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Novo Post</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<h1>Novo Post</h1>
+	
+	<p>Por favor, preencha os campos abaixo para criar um novo post no forum</p>
+	
+	<form action="/gerenciador/NovoPost" method="post">
+	
+	<label for="titulo_post">Titulo:</label><br>
+	<input type="text" name="titulo_post"><br>
+	
+	<label for="corpo_post">Conteudo:</label><br>
+	<textarea id="corpo_post" name="corpo_post" rows="15" cols="80"></textarea><br>
+	
+	<input type="submit" value="Criar">
+	
+	</form>
+</body>
+</html>
